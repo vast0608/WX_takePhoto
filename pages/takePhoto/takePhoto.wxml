@@ -1,0 +1,14 @@
+<!--pages/takePhoto/takePhoto.wxml-->
+<view style='width:{{width}}px; height:{{height}}px; overflow:hidden;'>
+    <camera device - position="back" flash = "off" style="width:{{width}}px; height:{{height}}px; margin-left:0px">
+    <cover-image src='{{logo}}' class= 'takephoto' bindtap='takePhoto' style='width:{{width>height-width?(height-width)*0.6:width*0.6}}px; height:{{width>height-width?(height-width)*0.6:width*0.6}}px; position:absolute; bottom:0px; left:0px;'> </cover-image>
+  <!--上部线条 -->
+  <cover-view class= 'biaochi' style = 'top:{{gap}}px; left:{{gap}}px; width:{{width-gap*2}}px; height:2px;'> </cover-view>
+  <!--下部线条 -->
+  <cover-view class= 'biaochi' style = 'top:{{gap+50}}px; left:{{gap}}px; width:{{width-gap*2}}px; height:2px;'> </cover-view>
+  <!--右部线条 -->
+  <cover-view class= 'biaochi' style = 'top:{{gap}}px; right:{{gap}}px; width:2px; height:50px;'> </cover-view>
+  <!--左部线条 -->
+  <cover-view class= 'biaochi' style = 'top:{{gap}}px; left:{{gap}}px; width:2px; height:50px;'> </cover-view>
+  </camera>
+</view> 

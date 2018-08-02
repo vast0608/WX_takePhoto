@@ -1,0 +1,4 @@
+/* pages/takePhoto/upload.wxss */
+page{
+  overflow:visible;
+}

@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/takePhoto/takePhoto",
+    "pages/takePhoto/upload"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fe9d20",
+    "navigationBarTitleText": "迈迈车拍照",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fe9d20",
+    "backgroundColorTop": "#fe9d20",
+    "backgroundColorBottom": "#fe9d20"
+  }
+}

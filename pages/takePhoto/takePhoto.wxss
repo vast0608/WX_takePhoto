@@ -1,0 +1,14 @@
+/* pages/takePhoto/takePhoto.wxss */
+page{
+  width: 100%; 
+  height: 100%; 
+  /* background: #fe9d20; */
+}
+.takephoto{
+  border-radius: 999px; 
+  box-shadow: 0 0 50rpx #ffd8a2;
+}
+.biaochi{
+  background:#fe9d20;
+  position: absolute;
+}

@@ -1,0 +1,1 @@
+<canvas canvas-id="image-canvas" style='width:{{width}}px; height:{{height}}px;'></canvas>
